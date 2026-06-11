@@ -1,27 +1,21 @@
-**Repositorio Completo Modelo**  
-Refiz um repositório, dessa vez da forma correta.  
+Introdução
 
-**🧑‍🤝‍🧑 AGENTES**  
-**OS PRINCIPAIS AGENTES DA EQUIPE:**
-(Focado no scrum)  
+Este projeto tem como objetivo
+proporcionar experiência prática nas
+etapas iniciais do desenvolvimento de
+software, com foco no levantamento e
+especificação de requisitos, casos de
+teste, gerência de configuração e
+práticas ágeis.
+Cada equipe escolherá um estudo de caso
+baseado em demandas reais do IFRS
+Campus Restinga, garantindo que o
+software/protótipo proposto tenha
+relevância institucional e aplicabilidade
+prática no contexto do campus.
 
-**PRODUCT OWNER(DONO DO PRODUTO):**  
-È a pessoa que representa os clientes ou quem pede o sistema.  
-Define o que precisa ser feito, prioriza as tarefas e diz qual o valor de cada coisa.  
-È ele quem diz "sim" ou "não" sobre o que foi feito.  
+IDEIA DO PROJETO:
+LISTA DE IDEIAS:
+-Sistema de contratração de profissionais especializados para o NAPNE(Núcleo de Atendimento ás Pessoas com Necessidades Educacionais Específicas)
+-Sistema de auxilio de máterial.
 
-
-  
-**SCRUM MASTER(MESTRE DO SCRUM):**  
-O lider de serviço e facilitador.
-Ajuda a equipe a entender e seguir as regras, retira os obstáculos que atrapalham o trabalho e protege a equipe de interferencias externas.  
-
-
-
-**EQUIPE DE DENSENVOLVIMENTO:**  
-O grupo de profissionais que cria o sistema. (3 a 9 Pessoas).  
-Se organizam sozinhos, decidem como fazer o trabalho e entregam as partes prontas a cada ciclo.  
-Todos tem o mesmo objetivo.  
-
-**QUEM VAI FAZER OQUE?**
-(Decida qual membro fara cada tarefa)
