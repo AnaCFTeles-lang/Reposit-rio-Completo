@@ -1,5 +1,9 @@
 -**REGRAS DO TRABALHO**
+
+
 -TIMES
+
+
 5 integrantes no maximo
 -NÙMERO DE REQUISITOS
 Mínimo 4 e máximo 8
