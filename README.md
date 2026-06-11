@@ -1,26 +1,26 @@
 -**REGRAS DO TRABALHO**
 
--TIMES
+-TIMES:
 5 integrantes no maximo
 
 
--NÙMERO DE REQUISITOS
+-NÙMERO DE REQUISITOS:
 Mínimo 4 e máximo 8
 
 
--KABAN
+-KABAN:
 Organização do trabalho é obrigatório
 
 
--REGISTRO
+-REGISTRO:
 Documento estruturado com escopo, especificação dos requisitos e plano de teste(template)
 
 
--ESPECIFICAÇÃO
+-ESPECIFICAÇÃO:
 escopo + casos de uso com descrição ou user stories + plano de teste
 
 
--REQUISITOS 
+-REQUISITOS :
 (PRIORIZAR)
 ❖ Essencial: imprescindível para o
 funcionamento do sistema.
@@ -30,18 +30,18 @@ funcionamento satisfatório.
 futuramente.
 
 
--ESTUDO DE CASO
+-ESTUDO DE CASO:
 necessidade do
 Campus
 
 
--REUNIÕES
+-REUNIÕES:
 status do projeto
 5 minutos por time nas
 aulas
 
 
--AVALIAÇÃO
+-AVALIAÇÃO:
 Todos os itens de avaliação devem atender a especificação do projeto. Eles serão avaliados conforme sua
 consistência, clareza, organização e defesa.
 • Escopo: identificação do problema e justificativa da solução, conforme necessidade real do Campus.
