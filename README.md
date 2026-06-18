@@ -1,4 +1,4 @@
-**Projeto Sistems NAPNE**  
+⁹**Projeto Sistems NAPNE**  
 
 **Visão Geral**  
 
@@ -45,4 +45,7 @@ Recursos avançados de comunicação fora do ambiente de consulta e registro de 
   Oferecer uma plataforma segura, acessível e prática para registrar e consultar pareceres dos alunos, facilitando o acompanhamento acadêmico, especialmente para estudantes com necessidades específicas.  
   **Perfils e Funcionalidade**  
   **Tecnologias usadas**  
-  **Instruções básicas**
+  **Instruções básicas**  
+
+✅ .gitignore → Arquivo padrão para ignorar arquivos temporários, senhas, banco local, etc.  
+✅ LICENSE → Use licença MIT (padrão acadêmico)
