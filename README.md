@@ -1,55 +1,33 @@
--**REGRAS DO TRABALHO**
+# Sistema de Acompanhamento Acadêmico - NAPNE IFRS
+**Projeto para disciplina de Engenharia de Software**
+*IFRS Campus Restinga*
 
--TIMES:
-5 integrantes no maximo
+---
 
+## 🎯 Visão Geral
+Plataforma digital desenvolvida para centralizar notas e pareceres de desempenho acadêmico, atendendo especialmente às necessidades do NAPNE. O objetivo é facilitar o acesso seguro e organizado às informações escolares, garantindo privacidade e acessibilidade para todos os usuários.
 
--NÙMERO DE REQUISITOS:
-Mínimo 4 e máximo 8
+## 📌 Escopo
+✅ **Incluído**:
+- Login e perfis: aluno, professor e administrador NAPNE
+- Registro, edição e consulta de notas e pareceres
+- Controle de acesso restrito
+- Recursos de acessibilidade
+- Cumprimento da LGPD
 
+❌ **Não incluído**:
+- Integração com sistemas oficiais já existentes
+- Emissão de históricos ou certificados oficiais
+- Acesso público sem cadastro
 
--KABAN:
-Organização do trabalho é obrigatório
+## 🛠️ Tecnologias previstas
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python/Flask ou Node.js
+- Banco de dados: SQLite
+- Ferramentas de apoio: Figma (protótipo), GitHub (controle de versão)
 
-
--REGISTRO:
-Documento estruturado com escopo, especificação dos requisitos e plano de teste(template)
-
-
--ESPECIFICAÇÃO:
-escopo + casos de uso com descrição ou user stories + plano de teste
-
-
--REQUISITOS :
-(PRIORIZAR)
-❖ Essencial: imprescindível para o
-funcionamento do sistema.
-❖ Importante: necessário para um
-funcionamento satisfatório.
-❖ Desejável: pode ser implementado
-futuramente.
-
-
--ESTUDO DE CASO:
-necessidade do
-Campus
-
-
--REUNIÕES:
-status do projeto
-5 minutos por time nas
-aulas
-
-
--AVALIAÇÃO:
-Todos os itens de avaliação devem atender a especificação do projeto. Eles serão avaliados conforme sua
-consistência, clareza, organização e defesa.
-• Escopo: identificação do problema e justificativa da solução, conforme necessidade real do Campus.
-• Requisitos: Requisitos Funcionais (RF) e Não Funcionais (RNF), com priorização e especificação
-técnica (Caso de Uso com descrição ou User Stories).
-
-• Testes: casos de teste para Caixa Preta. *bônus para demais testes realizados.
-
-• Gerência de configuração: controle de versão (GitHub) para os artefatos.
-• Métodos ágeis: uso contínuo do quadro Kanban e definição dos papéis e responsabilidades do time,
-conforme prazos.
+## 📂 Organização
+- `docs/`: Requisitos, escopo, casos de uso e teste
+- `src/`: Código do sistema
+- `prototipo/`: Modelos das telas
+- `gerenciamento/`: Planejamento e tarefas
