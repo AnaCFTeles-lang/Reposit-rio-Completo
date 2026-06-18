@@ -1,0 +1,17 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ambiente de desenvolvimento
+venv/
+env/
+node_modules/
+__pycache__/
+*.pyc
+
+# Arquivos sensíveis ou temporários
+*.env
+*.db
+*.sqlite
+*.log
+*.tmp
