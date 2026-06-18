@@ -1,1 +1,9 @@
-
+-  requisitos.md  → Levantamento completo (funcionais + não funcionais)
+​
+-  escopo_visao.md  → Visão geral e escopo do sistema
+​
+-  casos_de_uso.md  → Fluxos de aluno/professor/NAPNE
+​
+-  casos_de_teste.md  → Lista de testes planejados
+​
+-  diagramas/  → Diagramas UML, fluxograma, protótipos em imagem/P
