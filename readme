@@ -1,0 +1,19 @@
+# Visão Geral e Escopo do Projeto
+
+## 🎯 Visão Geral
+Este projeto consiste no desenvolvimento de uma plataforma digital para centralizar, organizar e disponibilizar notas e pareceres de desempenho acadêmico dos alunos do IFRS Campus Restinga. A solução foi solicitada pelo NAPNE, visando resolver a dificuldade de acesso e consulta aos dados, além de oferecer recursos de acessibilidade e total privacidade das informações.
+
+## 📌 Escopo do Projeto
+
+### ✅ O que está incluso
+- Autenticação segura e separação de perfis: aluno, professor e administrador do NAPNE
+- Registro, edição e visualização de notas e pareceres organizados por curso, disciplina e semestre
+- Controle de permissões: cada usuário acessa apenas o que é de sua responsabilidade
+- Recursos de acessibilidade: ajuste de fonte, alto contraste, navegação simplificada
+- Estrutura conforme normas de proteção de dados (LGPD)
+
+### ❌ O que não está incluso
+- Integração automática com sistemas acadêmicos já implantados no IFRS
+- Emissão de documentos oficiais como históricos ou certificados
+- Funcionalidades de comunicação fora do escopo de consulta e registro de notas
+- Acesso sem cadastro e login prévio
