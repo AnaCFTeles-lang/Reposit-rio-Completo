@@ -1,19 +1,33 @@
-# Visão Geral e Escopo do Projeto
+# Sistema de Acompanhamento Acadêmico - NAPNE IFRS
+**Projeto para disciplina de Engenharia de Software**
+*IFRS Campus Restinga*
+
+---
 
 ## 🎯 Visão Geral
-Este projeto consiste no desenvolvimento de uma plataforma digital para centralizar, organizar e disponibilizar notas e pareceres de desempenho acadêmico dos alunos do IFRS Campus Restinga. A solução foi solicitada pelo NAPNE, visando resolver a dificuldade de acesso e consulta aos dados, além de oferecer recursos de acessibilidade e total privacidade das informações.
+Plataforma digital desenvolvida para centralizar notas e pareceres de desempenho acadêmico, atendendo especialmente às necessidades do NAPNE. O objetivo é facilitar o acesso seguro e organizado às informações escolares, garantindo privacidade e acessibilidade para todos os usuários.
 
-## 📌 Escopo do Projeto
+## 📌 Escopo
+✅ **Incluído**:
+- Login e perfis: aluno, professor e administrador NAPNE
+- Registro, edição e consulta de notas e pareceres
+- Controle de acesso restrito
+- Recursos de acessibilidade
+- Cumprimento da LGPD
 
-### ✅ O que está incluso
-- Autenticação segura e separação de perfis: aluno, professor e administrador do NAPNE
-- Registro, edição e visualização de notas e pareceres organizados por curso, disciplina e semestre
-- Controle de permissões: cada usuário acessa apenas o que é de sua responsabilidade
-- Recursos de acessibilidade: ajuste de fonte, alto contraste, navegação simplificada
-- Estrutura conforme normas de proteção de dados (LGPD)
+❌ **Não incluído**:
+- Integração com sistemas oficiais já existentes
+- Emissão de históricos ou certificados oficiais
+- Acesso público sem cadastro
 
-### ❌ O que não está incluso
-- Integração automática com sistemas acadêmicos já implantados no IFRS
-- Emissão de documentos oficiais como históricos ou certificados
-- Funcionalidades de comunicação fora do escopo de consulta e registro de notas
-- Acesso sem cadastro e login prévio
+## 🛠️ Tecnologias previstas
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python/Flask ou Node.js
+- Banco de dados: SQLite
+- Ferramentas de apoio: Figma (protótipo), GitHub (controle de versão)
+
+## 📂 Organização
+- `docs/`: Requisitos, escopo, casos de uso e teste
+- `src/`: Código do sistema
+- `prototipo/`: Modelos das telas
+- `gerenciamento/`: Planejamento e tarefas
