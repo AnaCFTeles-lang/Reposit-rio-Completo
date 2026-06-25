@@ -1,0 +1,18 @@
+# 🔄 Fluxo Geral do Sistema
+
+## 🚀 Entrada
+1. Usuário acessa o sistema → **Tela de Login**
+2. Informa usuário + senha → sistema valida credencial e identifica perfil
+
+## 🧭 Caminhos separados
+- ✅ **Perfil ALUNO** → Tela inicial aluno → lista disciplinas → detalhes nota/parecer → voltar ou sair
+- ✅ **Perfil PROFESSOR** → Tela turmas → escolhe disciplina → lista alunos → edita/salva → voltar ou sair
+- ✅ **Perfil ADMIN / NAPNE** → Tela gestão usuários → cadastra/vincula turmas → sem acesso a notas
+
+## ⚠️ Caminhos alternativos
+- Dados inválidos → permanece na tela de login + mensagem de erro
+- Sessão inativa → encerra automaticamente
+- A qualquer momento → botão “Sair” retorna ao início
+
+## ✅ Regra‑chave
+**Um ponto de entrada, rotas isoladas por perfil** — ninguém acessa telas ou dados de outro grupo.
