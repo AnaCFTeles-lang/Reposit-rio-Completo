@@ -38,13 +38,13 @@ if (formLogin) {
 
     if (usuario === 'admin@napne.br' && senha === '123456') {
       erro.textContent = '';
-      window.open('tela_admin.html', '_blank'); // ← nova aba
+      window.open('tela_admin.html'); // ← nova aba
     } else if (usuario === 'professor@napne.br' && senha === '123456') {
       erro.textContent = '';
-      window.open('tela_professor.html', '_blank');
+      window.open('tela_professor.html');
     } else if (usuario === 'aluno@napne.br' && senha === '123456') {
       erro.textContent = '';
-      window.open('tela_aluno.html', '_blank');
+      window.open('tela_aluno.html');
     } else {
       erro.textContent = 'Usuário ou senha inválidos.';
     }
