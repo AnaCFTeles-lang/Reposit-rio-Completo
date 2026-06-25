@@ -1,1 +1,18 @@
+# Casos de Uso
+
+## 1 – Aluno consulta notas
+- **Ator:** Aluno
+- **Pré‑condição:** Cadastro ativo
+- **Fluxo:** Login → Ver semestres → Abrir disciplina → Ver notas/pareceres
+- **Regra:** Só vê os próprios dados
+
+## 2 – Professor lança dados
+- **Ator:** Professor
+- **Pré‑condição:** Vinculado à disciplina
+- **Fluxo:** Login → Escolher turma → Selecionar aluno → Inserir/editar nota + parecer → Salvar
+- **Regra:** Não altera dados de outra disciplina
+
+## 3 – Administrador NAPNE gerencia acessos
+- **Ator:** Administrador
+- **Ação:** Cadastrar/desativar usuários, vincular turmas
 
