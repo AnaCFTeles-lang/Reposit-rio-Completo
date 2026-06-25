@@ -6,23 +6,86 @@
   <title>Painel do Professor – NAPNE IFRS</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
-    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
-    .turma { background: #fff; border-radius: 8px; padding: 1.2rem; margin-bottom: 1rem; box-shadow: 0 2px 6px #00000015; }
-    .aluno-item { display: flex; justify-content: space-between; align-items: center; padding: .8rem 0; border-bottom: 1px solid #eee; }
-    .aluno-item:last-child { border-bottom: none; }
-    button.salvar { background: #2980b9; color: #fff; border: none; border-radius: 4px; padding: .5rem 1rem; cursor: pointer; margin-top: .5rem; }
-    textarea, input[type="text"], input[type="number"] { width: 100%; padding: .6rem; margin-top: .4rem; border: 1px solid #ccc; border-radius: 4px; }
-    .acessibilidade { display: flex; gap: .5rem; justify-content: flex-end; margin-bottom: 1rem; }
-    .acessibilidade button { padding: .3rem .8rem; cursor: pointer; border: none; border-radius: 4px; background: #3498db; color: white; }
+    .container { 
+      max-width: 900px; 
+      margin: 2rem auto; 
+      padding: 0 1rem; 
+    }
+    header { 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      margin-bottom: 2rem; 
+    }
+    .turma { 
+      background: #fff; 
+      border-radius: 8px; 
+      padding: 1.2rem; 
+      margin-bottom: 1rem; 
+      box-shadow: 0 2px 6px #00000015; 
+    }
+    .aluno-item { 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: flex-start; 
+      padding: .8rem 0; 
+      border-bottom: 1px solid #eee; 
+    }
+    .aluno-item:last-child { 
+      border-bottom: none; 
+    }
+    button.salvar { 
+      background: #2980b9; 
+      color: #fff; 
+      border: none; 
+      border-radius: 4px; 
+      padding: .5rem 1rem; 
+      cursor: pointer; 
+      margin-top: .5rem; 
+    }
+    textarea, 
+    input[type="text"], 
+    input[type="number"] { 
+      width: 100%; 
+      padding: .6rem; 
+      margin-top: .4rem; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      box-sizing: border-box; /* evita estouro de largura */
+    }
+    .acessibilidade { 
+      display: flex; 
+      gap: .5rem; 
+      justify-content: flex-end; 
+      margin-bottom: 1rem; 
+    }
+    .acessibilidade button { 
+      padding: .3rem .8rem; 
+      cursor: pointer; 
+      border: none; 
+      border-radius: 4px; 
+      background: #3498db; 
+      color: white; 
+    }
+    /* compatibilidade com modo alto‑contraste */
+    body.alto‑contraste .turma { 
+      background-color: #111; 
+      box-shadow: 0 0 10px #ffffff30; 
+    }
+    body.alto‑contraste textarea, 
+    body.alto‑contraste input[type="number"] { 
+      background: #222; 
+      color: #fff; 
+      border-color: #555; 
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="acessibilidade">
-      <button id="btnAmais">A+</button>
-      <button id="btnAmenos">A‑</button>
-      <button id="btnContraste">Alto Contraste</button>
+      <button type="button" id="btnAmais">A+</button>
+      <button type="button" id="btnAmenos">A‑</button>
+      <button type="button" id="btnContraste">Alto Contraste</button>
     </div>
 
     <header>
@@ -30,35 +93,37 @@
       <a href="index.html" style="color:#e74c3c; text‑decoration:none; font‑weight:bold;">Sair</a>
     </header>
 
-    <div class="turma">
-      <h3>Disciplina: Fundamentos de Programação — Turma 2026‑1</h3>
+    <main>
+      <div class="turma">
+        <h3>Disciplina: Fundamentos de Programação — Turma 2026‑1</h3>
 
-      <div class="aluno-item">
-        <div>
-          <strong>Maria da Silva</strong><br>
-          <label>Nota:</label>
-          <input type="number" min="0" max="10" step="0.1" value="8.0">
-          <br>
-          <label>Parecer:</label>
-          <textarea rows="3">Bom desempenho em lógica, precisa praticar mais estruturas de repetição.</textarea>
-          <br>
-          <button class="salvar">Salvar alterações</button>
+        <div class="aluno-item">
+          <div style="width: 100%;">
+            <strong>Maria da Silva</strong><br>
+            <label for="nota_maria">Nota:</label>
+            <input type="number" id="nota_maria" name="nota_maria" min="0" max="10" step="0.1" value="8.0">
+            <br>
+            <label for="parecer_maria">Parecer:</label>
+            <textarea id="parecer_maria" name="parecer_maria" rows="3">Bom desempenho em lógica, precisa praticar mais estruturas de repetição.</textarea>
+            <br>
+            <button type="button" class="salvar">Salvar alterações</button>
+          </div>
+        </div>
+
+        <div class="aluno-item">
+          <div style="width: 100%;">
+            <strong>João Santos</strong><br>
+            <label for="nota_joao">Nota:</label>
+            <input type="number" id="nota_joao" name="nota_joao" min="0" max="10" step="0.1" value="7.5">
+            <br>
+            <label for="parecer_joao">Parecer:</label>
+            <textarea id="parecer_joao" name="parecer_joao" rows="3">Participa ativamente, entrega trabalhos dentro do prazo.</textarea>
+            <br>
+            <button type="button" class="salvar">Salvar alterações</button>
+          </div>
         </div>
       </div>
-
-      <div class="aluno-item">
-        <div>
-          <strong>João Santos</strong><br>
-          <label>Nota:</label>
-          <input type="number" min="0" max="10" step="0.1" value="7.5">
-          <br>
-          <label>Parecer:</label>
-          <textarea rows="3">Participa ativamente, entrega trabalhos dentro do prazo.</textarea>
-          <br>
-          <button class="salvar">Salvar alterações</button>
-        </div>
-      </div>
-    </div>
+    </main>
   </div>
 
   <script src="script.js"></script>
