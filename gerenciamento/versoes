@@ -1,0 +1,27 @@
+# Controle de Versões – Gerência de Configuração
+
+## Regra de numeração: X.Y.Z
+- X: versão principal / entrega
+- Y: novas funcionalidades/documentos
+- Z: ajustes e correções
+
+### 📌 Versão 0.1.0 – inicial
+- ✔️ Estrutura de pastas criada
+- ✔️ `README`, `.gitignore` definidos
+- ✔️ Repositório com ramos `principal` e `último_trabalho`
+
+### 📌 Versão 0.2.0 – documentação base
+- ✔️ Adicionado `escopo_visao.md`
+- ✔️ Adicionado `requisitos.md`
+- ✔️ Adicionado `caso_de_uso.md` e `caso_de_teste.md`
+- ✔️ Arquivos organizados dentro de `documentos/`
+
+### 📌 Versão 0.3.0 – planejamento da equipe
+- ✔️ Criação de `gerenciamento/planejamento_tarefas.md`
+- ✔️ Controle de versões registrado
+- ⏳ Próximo: adicionar diagramas e protótipo
+
+### 📌 Versão 1.0.0 – entrega final (planejada)
+- Documentação completa
+- Protótipo funcional ou código‑base
+- Testes executados
