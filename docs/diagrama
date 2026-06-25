@@ -1,1 +1,5 @@
+# Diagrama de Casos de Uso
+Aluno ── Consultar notas
+Professor ── Lançar dados
+NAPNE ── Gerenciar usuários
 
