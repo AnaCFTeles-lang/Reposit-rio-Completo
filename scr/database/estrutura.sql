@@ -1,6 +1,3 @@
--- Banco: sistema_napne
--- Estrutura apenas — SEM dados
-
 CREATE TABLE usuarios (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT NOT NULL,
