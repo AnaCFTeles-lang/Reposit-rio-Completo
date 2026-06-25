@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt‑BR">
+<head>
+  <meta charset="UTF‑8">
+  <meta name="viewport" content="width=device‑width, initial‑scale=1.0">
+  <title>Painel Administrador — NAPNE IFRS</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+    .card { background: #fff; border-radius: 8px; padding: 1.2rem; margin-bottom: 1rem; box-shadow: 0 2px 6px #00000015; }
+    input, select { width: 100%; padding: .6rem; margin-top: .4rem; border: 1px solid #ccc; border-radius: 4px; }
+    button { padding: .5rem 1rem; border: none; border-radius: 4px; cursor: pointer; margin-top: .8rem; }
+    .btn‑primario { background: #2c3e50; color: #fff; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="acessibilidade">
+      <button id="btnAmais">A+</button>
+      <button id="btnAmenos">A‑</button>
+      <button id="btnContraste">Alto Contraste</button>
+    </div>
+
+    <header>
+      <h2>Administração — NAPNE</h2>
+      <a href="index.html" style="color:#e74c3c; text‑decoration:none; font‑weight:bold;">Sair</a>
+    </header>
+
+    <div class="card">
+      <h3>Cadastrar novo usuário</h3>
+      <label>Nome:</label>
+      <input type="text">
+      <label>E‑mail institucional:</label>
+      <input type="email">
+      <label>Perfil:</label>
+      <select>
+        <option>Aluno</option>
+        <option>Professor</option>
+        <option>Administrador</option>
+      </select>
+      <button class="btn‑primario">Cadastrar</button>
+    </div>
+
+    <div class="card">
+      <h3>Vincular disciplina / turma</h3>
+      <label>Professor:</label>
+      <select></select>
+      <label>Disciplina:</label>
+      <input type="text" placeholder="Ex: Fundamentos de Programação">
+      <label>Turma:</label>
+      <input type="text" placeholder="2026‑1">
+      <button class="btn‑primario">Vincular</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
