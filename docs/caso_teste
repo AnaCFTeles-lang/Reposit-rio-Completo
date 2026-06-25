@@ -1,1 +1,17 @@
+# Casos de Teste
+
+✅ T1 – Login válido
+Entrada: usuário/senha corretos → Resultado: acesso liberado, tela correta
+
+❌ T2 – Login inválido
+Entrada: dados errados → Resultado: mensagem de erro, bloqueio
+
+🔒 T3 – Isolamento de dados
+Ação: logar como aluno → Resultado: sem acesso a dados de outros alunos
+
+📝 T4 – Lançamento de nota
+Ação: prof insere valor → Resultado: salvo e visível ao aluno correspondente
+
+♿ T5 – Acessibilidade
+Ação: ativar contraste/aumentar fonte → Resultado: interface responde corretamente
 
