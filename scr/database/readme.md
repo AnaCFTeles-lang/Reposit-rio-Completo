@@ -1,2 +1,2 @@
-# Lógica e API
-Código servidor, regras de negócio e rotas.
+# Scripts do banco
+Apenas arquivos .sql ou modelos de estrutura.
