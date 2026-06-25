@@ -1,14 +1,112 @@
-* { box-sizing: border‑box; margin: 0; padding: 0; font‑family: Arial, sans‑serif; }
-body { background‑color: #f0f4f8; display: flex; justify‑content: center; align‑items: center; min‑height: 100vh; }
-.login‑box { background: white; padding: 2rem; border‑radius: 8px; box‑shadow: 0 0 10px #00000020; width: min(90%, 420px); }
-h1 { font‑size: 1.2rem; margin‑bottom: 1.5rem; text‑align: center; color: #2c3e50; }
-.acessibilidade { display: flex; gap: .5rem; justify‑content: flex‑end; margin‑bottom: 1rem; }
-.acessibilidade button { padding: .3rem .8rem; cursor: pointer; border: none; border‑radius: 4px; background: #3498db; color: white; }
-label { display: block; margin: .8rem 0 .2rem; }
-input { width: 100%; padding: .7rem; border: 1px solid #ccc; border‑radius: 4px; }
-form button { width: 100%; padding: .8rem; margin‑top: 1rem; background: #27ae60; color: white; border: none; border‑radius: 4px; cursor: pointer; font‑weight: bold; }
-.link { display: inline‑block; margin‑top: 1rem; font‑size: .9rem; color: #2980b9; text‑decoration: none; }
-.erro { color: red; font‑size: .9rem; margin‑top: .5rem; text‑align: center; }
-.alto‑contraste { background‑color: #000; color: #fff; }
-.alto‑contraste .login‑box { background‑color: #111; box‑shadow: 0 0 10px #ffffff30; }
-.alto‑contraste input { background: #222; color: #fff; border‑color: #555; }
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+  font-family: Arial, sans-serif; 
+}
+
+body { 
+  background-color: #f0f4f8; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+}
+
+.login-box { 
+  background: white; 
+  padding: 2rem; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px #00000020; 
+  width: min(90%, 420px); 
+}
+
+h1 { 
+  font-size: 1.2rem; 
+  margin-bottom: 1.5rem; 
+  text-align: center; 
+  color: #2c3e50; 
+}
+
+.acessibilidade { 
+  display: flex; 
+  gap: 0.5rem; 
+  justify-content: flex-end; 
+  margin-bottom: 1rem; 
+}
+
+.acessibilidade button { 
+  padding: 0.3rem 0.8rem; 
+  cursor: pointer; 
+  border: none; 
+  border-radius: 4px; 
+  background: #3498db; 
+  color: white; 
+}
+
+label { 
+  display: block; 
+  margin: 0.8rem 0 0.2rem; 
+}
+
+input { 
+  width: 100%; 
+  padding: 0.7rem; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+form button { 
+  width: 100%; 
+  padding: 0.8rem; 
+  margin-top: 1rem; 
+  background: #27ae60; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-weight: bold; 
+}
+
+.link { 
+  display: inline-block; 
+  margin-top: 1rem; 
+  font-size: 0.9rem; 
+  color: #2980b9; 
+  text-decoration: none; 
+}
+
+.erro { 
+  color: red; 
+  font-size: 0.9rem; 
+  margin-top: 0.5rem; 
+  text-align: center; 
+}
+
+/* ✅ ALTO CONTRASTE — CORRETO E ESPECÍFICO */
+body.alto‑contraste { 
+  background-color: #000; 
+  color: #fff; 
+}
+
+body.alto‑contraste .login-box { 
+  background-color: #111; 
+  box-shadow: 0 0 10px #ffffff30; 
+}
+
+body.alto‑contraste input { 
+  background: #222; 
+  color: #fff; 
+  border-color: #555; 
+}
+
+body.alto‑contraste h1,
+body.alto‑contraste label,
+body.alto‑contraste .link {
+  color: #fff;
+}
+
+body.alto‑contraste .acessibilidade button {
+  background: #5dade2;
+  color: #000;
+}
