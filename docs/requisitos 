@@ -1,17 +1,11 @@
-# Levantamento de Requisitos
+# Requisitos
 
-## 📋 Requisitos Funcionais
-**RF01** – Permitir cadastro e login seguro com dados institucionais
-**RF02** – Aluno visualiza apenas suas próprias notas e pareceres
-**RF03** – Professor insere, edita ou remove dados somente das disciplinas que leciona
-**RF04** – Dados são organizados por curso, semestre e disciplina
-**RF05** – Interface com ajuste de tamanho de fonte e alto contraste
-**RF06** – Compatibilidade com leitores de tela
-**RF07** – Administrador NAPNE gerencia usuários e turmas sem alterar notas
+✅ Funcionais
+- RF01: Perfis distintos
+- RF02: Acesso restrito por usuário
+- RF03: Recursos de acessibilidade
 
-## ⚙️ Requisitos Não Funcionais
-**RNF01** – Dados protegidos conforme a LGPD
-**RNF02** – Funciona em computadores, celulares e tablets
-**RNF03** – Carregamento rápido e navegação intuitiva
-**RNF04** – Código organizado para futuras alterações
-**RNF05** – Senhas armazenadas de forma criptografada
+⚙️ Não‑funcionais
+- RNF01: LGPD / criptografia
+- RNF02: Responsividade celular/PC
+
