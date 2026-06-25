@@ -9,3 +9,23 @@
 - RNF01: LGPD / criptografia
 - RNF02: Responsividade celular/PC
 
+# Levantamento de Requisitos
+**Sistema de Acompanhamento Acadêmico – NAPNE / IFRS Campus Restinga**
+
+## 🎯 Objetivo geral
+Centralizar, de forma segura e acessível, notas e pareceres de desempenho acadêmico, facilitando o acompanhamento escolar, especialmente para estudantes com necessidades específicas.
+
+## ✅ Requisitos Funcionais
+**RF01** – Permitir cadastro e autenticação de usuários com perfis distintos: Aluno, Professor e Administrador NAPNE.
+**RF02** – Garantir que o aluno visualize **apenas** suas próprias notas, pareceres e histórico, organizados por curso, semestre e disciplina.
+**RF03** – Permitir ao professor inserir, alterar ou excluir notas e pareceres **somente** das disciplinas e turmas que leciona.
+**RF04** – Disponibilizar campo de texto livre para pareceres qualitativos, além de valores numéricos de nota.
+**RF05** – Oferecer recursos de acessibilidade: ajuste de tamanho de fonte, modo de alto contraste, navegação por teclado e compatibilidade com leitores de tela.
+**RF06** – Permitir ao administrador NAPNE gerenciar cadastros, vínculos de turmas e redefinir acessos, sem alterar notas ou pareceres.
+
+## ⚙️ Requisitos Não‑Funcionais
+**RNF01** – Cumprir a LGPD: dados armazenados de forma criptografada e acesso controlado.
+**RNF02** – Interface responsiva: funcionar bem em celulares, tablets e computadores.
+**RNF03** – Tempo de resposta inferior a 2 segundos nas consultas principais.
+**RNF04** – Código e documentação organizados para facilitar manutenção e evolução futura.
+**RNF05** – Instruções e mensagens em português, linguagem simples e objetiva.
