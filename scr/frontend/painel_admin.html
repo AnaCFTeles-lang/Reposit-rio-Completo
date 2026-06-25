@@ -9,17 +9,19 @@
     .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
     header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
     .card { background: #fff; border-radius: 8px; padding: 1.2rem; margin-bottom: 1rem; box-shadow: 0 2px 6px #00000015; }
-    input, select { width: 100%; padding: .6rem; margin-top: .4rem; border: 1px solid #ccc; border-radius: 4px; }
+    input, select { width: 100%; padding: .6rem; margin-top: .4rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
     button { padding: .5rem 1rem; border: none; border-radius: 4px; cursor: pointer; margin-top: .8rem; }
     .btn‑primario { background: #2c3e50; color: #fff; }
+    .acessibilidade { margin-bottom: 1rem; }
+    .acessibilidade button { margin: 0 .2rem 0 0; }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="acessibilidade">
-      <button id="btnAmais">A+</button>
-      <button id="btnAmenos">A‑</button>
-      <button id="btnContraste">Alto Contraste</button>
+      <button type="button" id="btnAmais">A+</button>
+      <button type="button" id="btnAmenos">A‑</button>
+      <button type="button" id="btnContraste">Alto Contraste</button>
     </div>
 
     <header>
@@ -29,28 +31,36 @@
 
     <div class="card">
       <h3>Cadastrar novo usuário</h3>
-      <label>Nome:</label>
-      <input type="text">
-      <label>E‑mail institucional:</label>
-      <input type="email">
-      <label>Perfil:</label>
-      <select>
-        <option>Aluno</option>
-        <option>Professor</option>
-        <option>Administrador</option>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E‑mail institucional:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="perfil">Perfil:</label>
+      <select id="perfil" name="perfil">
+        <option value="aluno">Aluno</option>
+        <option value="professor">Professor</option>
+        <option value="admin">Administrador</option>
       </select>
-      <button class="btn‑primario">Cadastrar</button>
+
+      <button type="button" class="btn‑primario">Cadastrar</button>
     </div>
 
     <div class="card">
       <h3>Vincular disciplina / turma</h3>
-      <label>Professor:</label>
-      <select></select>
-      <label>Disciplina:</label>
-      <input type="text" placeholder="Ex: Fundamentos de Programação">
-      <label>Turma:</label>
-      <input type="text" placeholder="2026‑1">
-      <button class="btn‑primario">Vincular</button>
+      <label for="professor">Professor:</label>
+      <select id="professor" name="professor">
+        <!-- opções serão preenchidas dinamicamente -->
+      </select>
+
+      <label for="disciplina">Disciplina:</label>
+      <input type="text" id="disciplina" name="disciplina" placeholder="Ex: Fundamentos de Programação" required>
+
+      <label for="turma">Turma:</label>
+      <input type="text" id="turma" name="turma" placeholder="2026‑1" required>
+
+      <button type="button" class="btn‑primario">Vincular</button>
     </div>
   </div>
 
