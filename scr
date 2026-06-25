@@ -1,4 +1,0 @@
-src/
- ├─ frontend/      ← HTML, CSS, JS, telas
- ├─ backend/       ← lógica, conexão com banco
- └─ database/      ← scripts SQL, estrutura do banco
