@@ -1,4 +1,4 @@
-// Ajuste de tamanho da fonte
+// Tamanho da fonte
 let tamanhoFonte = 16;
 
 const btnAmais = document.getElementById('btnAmais');
@@ -27,25 +27,24 @@ if (btnContraste) {
   });
 }
 
-// LOGIN — só funciona se as telas existirem NA MESMA PASTA
+// LOGIN — ABRE EM NOVA ABA, ou remova "_blank" se quiser mesma janela
 if (formLogin) {
   formLogin.addEventListener('submit', e => {
-    e.preventDefault(); // essencial para não recarregar
+    e.preventDefault();
 
     const usuario = document.getElementById('usuario').value.trim();
     const senha = document.getElementById('senha').value;
     const erro = document.getElementById('erro');
 
-    // Dados de teste corretos
     if (usuario === 'admin@napne.br' && senha === '123456') {
       erro.textContent = '';
-      window.location.href = 'tela_admin.html';
+      window.open('tela_admin.html', '_blank'); // ← nova aba
     } else if (usuario === 'professor@napne.br' && senha === '123456') {
       erro.textContent = '';
-      window.location.href = 'tela_professor.html';
+      window.open('tela_professor.html', '_blank');
     } else if (usuario === 'aluno@napne.br' && senha === '123456') {
       erro.textContent = '';
-      window.location.href = 'tela_aluno.html';
+      window.open('tela_aluno.html', '_blank');
     } else {
       erro.textContent = 'Usuário ou senha inválidos.';
     }
