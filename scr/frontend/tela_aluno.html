@@ -3,17 +3,32 @@
 <head>
   <meta charset="UTF‑8">
   <meta name="viewport" content="width=device‑width, initial‑scale=1.0">
-  <title>Painel do Aluno – NAPNE</title>
-  <link rel="stylesheet" href="style.css"> <!-- MESMO ARQUIVO -->
+  <title>Painel do Aluno – NAPNE IFRS</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- CSS já tem .container, header etc. — igual painel admin -->
 </head>
 <body>
   <div class="container">
+    <div class="acessibilidade">
+      <button type="button" id="btnAmais">A+</button>
+      <button type="button" id="btnAmenos">A‑</button>
+      <button type="button" id="btnContraste">Alto Contraste</button>
+    </div>
+
     <header>
       <h2>Bem‑vindo, Aluno</h2>
-      <a href="index.html">Sair</a>
+      <a href="index.html" style="color:#e74c3c; text‑decoration:none; font‑weight:bold;">Sair</a>
     </header>
-    <!-- resto do conteúdo -->
+
+    <main>
+      <!-- Aqui entra o conteúdo: notas, horários, acompanhamento, etc. -->
+      <div class="card">
+        <h3>Área de acompanhamento acadêmico</h3>
+        <p>Conteúdo do painel do aluno aqui…</p>
+      </div>
+    </main>
   </div>
-  <script src="script.js"></script> <!-- MESMO ARQUIVO -->
+
+  <script src="script.js"></script>
 </body>
 </html>
