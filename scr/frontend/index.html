@@ -11,16 +11,14 @@
     <h1>Sistema de Acompanhamento Acadêmico – NAPNE IFRS</h1>
 
     <div class="acessibilidade">
-      <button id="btnAmais">A+</button>
-      <button id="btnAmenos">A‑</button>
-      <button id="btnContraste">Alto Contraste</button>
+      <button type="button" id="btnAmais">A+</button>
+      <button type="button" id="btnAmenos">A‑</button>
+      <button type="button" id="btnContraste">Alto Contraste</button>
     </div>
 
     <form id="formLogin">
-  <!-- campos -->
-  <button type="submit">Entrar</button>
-</form>
-
+      <label for="usuario">Usuário</label>
+      <input type="text" id="usuario" required>
 
       <label for="senha">Senha</label>
       <input type="password" id="senha" required>
@@ -35,3 +33,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
