@@ -1,0 +1,39 @@
+# 📄 Tela Principal – Professor
+
+## 🎯 Objetivo
+Permitir consultar turmas, lançar e alterar notas e pareceres **apenas das disciplinas sob sua responsabilidade**.
+
+## 🧱 Elementos da tela
+- **Cabeçalho:**
+  - Nome completo do professor
+  - Disciplinas vinculadas neste semestre
+  - Botão “Sair”
+  - Controles de acessibilidade (A+/A‑/alto contraste)
+
+- **Seleção rápida:**
+  - Campo: *Escolha disciplina / turma*
+  - Lista filtrada automaticamente — só mostra o que ele leciona
+
+- **Lista de alunos da turma:**
+  - Nome + número de matrícula
+  - Indicador: *sem nota / parcial / finalizada*
+  - Ação: **Abrir registro**
+
+- **Tela de registro do aluno:**
+  - Campo numérico: **Nota** (ex: 0,0 a 10,0)
+  - Campo texto amplo: **Parecer descritivo**
+  - Campo extra: *Observações / adaptações NAPNE*
+  - Botões:
+    - 💾 Salvar rascunho (não visível ao aluno)
+    - 🚀 Publicar (libera visualização imediata)
+
+- **Menu lateral / inferior:**
+  - 📘 Minhas Turmas
+  - 📊 Resumo por turma
+  - ⚙️ Configurações
+  - ❓ Ajuda
+
+## ⚙️ Regras
+- ❌ Não vê nem altera alunos/disciplinas de outros professores
+- ✅ Rascunhos só aparecem para o professor
+- ✅ Após “Publicar”, dado fica visível automaticamente ao aluno correspondente
