@@ -1,3 +1,22 @@
+import sqlite3
+
+def conectar_banco():
+    # Cria/abre o arquivo do banco
+    conn = sqlite3.connect("sistema_napne.db")
+    
+    # ✅ ESSENCIAL: ativa validação de chaves estrangeiras na sessão
+    conn.execute("PRAGMA foreign_keys = ON;")
+    
+    # Permite acessar resultados por nome de coluna (mais fácil)
+    conn.row_factory = sqlite3.Row
+    
+    return conn, conn.cursor()
+
+# Teste rápido de conexão
+if __name__ == "__main__":
+    conn, cursor = conectar_banco()
+    print("✅ Conectado — chaves estrangeiras ativadas")
+    conn.close()
 -- Banco: sistema_napne
 -- Estrutura apenas — SEM dados
 
@@ -37,4 +56,3 @@ CREATE TABLE notas_pareceres (
     FOREIGN KEY (id_disciplina) REFERENCES disciplinas(id),
     FOREIGN KEY (id_professor) REFERENCES usuarios(id)
 );
-PRAGMA foreign_keys = ON;
