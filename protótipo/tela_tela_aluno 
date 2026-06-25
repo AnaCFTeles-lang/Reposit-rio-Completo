@@ -1,0 +1,38 @@
+# 📄 Tela Principal – Aluno
+
+## 🎯 Objetivo
+Exibir de forma clara, organizada e acessível apenas as informações acadêmicas do próprio aluno.
+
+## 🧱 Elementos da tela
+- **Cabeçalho:**
+  - Nome completo do aluno
+  - Curso e semestre atual
+  - Ícone de perfil + botão “Sair”
+  - Controles de acessibilidade (A+/A‑/contraste)
+
+- **Resumo rápido:**
+  - Semestre: 2026/1
+  - Quantidade de disciplinas: 5
+  - Média geral: — (ou valor calculado)
+
+- **Lista de disciplinas (clicáveis):**
+  ✅ Matemática — Nota: 8,5
+  ✅ Língua Portuguesa — Nota: 9,0
+  ✅ Fundamentos de Programação — Nota: 7,8
+  *(ao clicar em uma disciplina, abre detalhes)*
+
+- **Detalhes ao abrir disciplina:**
+  - Notas parciais e nota final
+  - **Parecer do professor:** campo só leitura, com observações de desempenho
+  - Notas complementares/NAPNE, quando existirem
+
+- **Menu inferior fixo:**
+  - 📌 Início
+  - 📚 Histórico de semestres anteriores
+  - ⚙️ Configurações (acessibilidade, conta)
+  - ❓ Ajuda
+
+## ⚙️ Regras
+- ❌ Sem botões de edição — visualização apenas
+- 🔒 Não há acesso a dados de outros alunos
+- 📱 Layout adaptado para celular e computador
